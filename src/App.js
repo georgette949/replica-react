@@ -6,6 +6,7 @@ import Join from "./pages/Join";
 import Discovery from "./pages/Discovery";
 
 
+
 function App() {
   return (
     
@@ -16,7 +17,7 @@ function App() {
     <NavBar/> 
     </header>
     <main>
-   <circle/>
+   
     <Routes>
      <Route path="/" element={<SoundWave />} />
      <Route path="join" element={<Join />} />

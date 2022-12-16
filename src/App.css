@@ -8,31 +8,32 @@
 	outline: none;
     background-color: #2F303A;
 }
-
- .App{
-    background-color: white;
- }
-
 .NavContainer {
     display:flex;
     justify-content: space-between;
-
 }
+
+a:visited {
+    color:white;
+}
+
 .lista {
     display:flex;
-    justify-content: space-around;   
+    justify-content: space-around;      
 }
 
 li{
     padding: 2rem;
-    color:white;
+    color:white;  
 }
 .part1{
     display:flex;
-    align-items: center;   
+    align-items: center; 
+      
 }
 .logo{
     margin-right: 1rem;
+    color:white;
     
 }
 .boton {
@@ -45,23 +46,55 @@ li{
   outline: none;
   background-color: #1762A7;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   font-family: poppins;
-  color:white; 
+  font:white; 
+  font-size: large;
+}
+
+button {
+    color:white;
+    background-color: #1762A7;
+    font-family: poppins;
+    display:flex;
+    
 }
 
 .partRight{
     display:flex;
-    justify-content: center;
+
+    padding-left: 15rem;
     font-family: poppins;
     color: white;
 }
 
-.circulo {
+.Circulo {
+    position:relative;
     width: 100px;
     height: 100px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #5cb85c;
+    background-color: #bc3a801a;
+    height: 300px;
+    width: 300px;
+    display:flex; 
+    align-content: center;
+    
+
 }
+.imagenOne {
+    display: flex;
+    justify-content:center;
+    padding-left: 20rem;
+    padding-top: auto;
+  
+}
+ Footer {
+    color:white;
+    background-color:#202027 ;
+ }
+ .ContainerHome {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+ }

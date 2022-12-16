@@ -7,4 +7,4 @@ const Circulo = () => {
   )
 }
 
-export default circulo
+export default Circulo
