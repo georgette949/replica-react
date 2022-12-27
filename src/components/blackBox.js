@@ -3,6 +3,4 @@
 /*function BlackBox({icon,text}) {
     return (
         <div className=""*/
-    )
     
-}

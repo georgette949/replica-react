@@ -1,4 +1,5 @@
 * {
+    
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -37,6 +38,7 @@ li{
     
 }
 .boton {
+ 
   display: inline-block;
   padding: 5px 20px;
   font-size: 24px;
@@ -61,14 +63,14 @@ button {
 }
 
 .partRight{
-    display:flex;
-
+    display:grid;
+    justify-items: center;
     padding-left: 15rem;
     font-family: poppins;
     color: white;
 }
 
-.Circulo {
+/*.Circulo {
     position:relative;
     width: 100px;
     height: 100px;
@@ -80,13 +82,13 @@ button {
     align-content: center;
     
 
-}
-.imagenOne {
+}*/
+/*.imagenOne {
     display: flex;
     justify-content:center;
     padding-left: 20rem;
     padding-top: auto; 
-} 
+} */
 
  .footer {
         font-family: poppins;
@@ -103,9 +105,12 @@ button {
       }
 
  .ContainerHome {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+    display:grid;
+    align-items:flex-end;
+    
+
+    
 
  }
 
@@ -117,4 +122,12 @@ button {
     font-size: 60px;
     padding-left: 50px;
 
+ }
+
+ .contenedorform{
+    color:white;
+ }
+
+ .fondo {
+    padding-right: 5rem;
  }
